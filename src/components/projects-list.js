@@ -1,5 +1,6 @@
 import landingpage from "../assets/landing-page.jpg";
 import iwdsummit from "../assets/iwdsummit.jpg";
+import eportfolio from "../assets/eportfolio.jpg";
 const projects = [
   {
     title: "Google Event",
@@ -15,6 +16,13 @@ const projects = [
     imageUrl: landingpage,
     codeLink: "https://github.com/hebz26/GGE-Landing-Page",
     demoLink: "https://hebz26.github.io/GGE-Landing-Page/",
+  },
+  {
+    title: "My ePortfolio",
+    description:
+      "I developed this portfolio using React and TailwindCSS. Check out the code!",
+    imageUrl: eportfolio,
+    codeLink: "https://github.com/hebz26/portfolio-version2",
   },
 ];
 

@@ -26,7 +26,7 @@ const ProjectCard = ({
         {demoLink && (
           <a href={demoLink} target="_blank" rel="noopener noreferrer">
             <button className="bg-[#d682a1] text-white px-4 py-2 mr-2 rounded-lg">
-              Live Demo
+              Demo
             </button>
           </a>
         )}
