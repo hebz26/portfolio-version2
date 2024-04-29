@@ -1,26 +1,20 @@
+import landingpage from "../assets/landing-page.jpg";
+import iwdsummit from "../assets/iwdsummit.jpg";
 const projects = [
   {
     title: "Google Event",
     description:
-      "Built website for the Detroit International Women's Day Summit 2024",
-    imageUrl: "https://via.placeholder.com/300",
+      "Built and designed website for the Detroit International Women's Day Summit 2024",
+    imageUrl: iwdsummit,
     demoLink: "https://www.iwdsummit.com/",
   },
   {
-    title: "Half Project 2",
+    title: "Landing Page",
     description:
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    imageUrl: "https://via.placeholder.com/300",
-    codeLink: "https://example.com/code2",
-    demoLink: "https://example.com/demo2",
-  },
-  {
-    title: "Half Project 3",
-    description:
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    imageUrl: "https://via.placeholder.com/300",
-    codeLink: "https://example.com/code3",
-    demoLink: "https://example.com/demo3",
+      "Developed event company planning page. Designed entire brand identiy",
+    imageUrl: landingpage,
+    codeLink: "https://github.com/hebz26/GGE-Landing-Page",
+    demoLink: "https://hebz26.github.io/GGE-Landing-Page/",
   },
 ];
 
