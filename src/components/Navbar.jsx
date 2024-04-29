@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.png";
+import { Link } from "react-scroll";
+
 import {
   FaBars,
   FaTimes,
@@ -15,23 +17,35 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#fffde7] text-[1c1c1c] z-20">
       <div>
         <img src={Logo} alt="Logo Initials" style={{ width: "50px" }} />
       </div>
 
       {/* Menu */}
 
-      <ul className="hidden md:flex ">
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Skills</li>
-        <li>Contact</li>
+      <ul className="hidden md:flex text-xl ">
+        <li>
+          <Link to="home" smooth={true} duration={500}>
+            home
+          </Link>
+        </li>
+        <li>
+          {" "}
+          <Link to="about" smooth={true} duration={500}>
+            about
+          </Link>
+        </li>
+        <li>
+          {" "}
+          <Link to="work" smooth={true} duration={500} offset={-50}>
+            projects
+          </Link>
+        </li>
       </ul>
 
       {/* Hamburger Menu */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="md:hidden z-50">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -40,46 +54,60 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#fffde7] flex flex-col justify-center items-center -z-10"
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Projects</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            home
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            about
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="work"
+            smooth={true}
+            duration={500}
+            offset={-50}
+          >
+            projects
+          </Link>
+        </li>
       </ul>
       {/* Socials Menu */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 ">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#de672a] ">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              className="flex justify-between items-center w-full text-[#fffde7]"
+              href="https://www.linkedin.com/in/heba-sayed6"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 ">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#d682a1] ">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              className="flex justify-between items-center w-full text-[#fffde7]"
+              href="https://github.com/hebz26"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 ">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#9bc34f] ">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 ">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              className="flex justify-between items-center w-full text-[#fffde7]"
+              href="https://www.instagram.com/hebzstudio/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Instagram <FaInstagram size={30} />
             </a>
