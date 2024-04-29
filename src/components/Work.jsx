@@ -8,9 +8,9 @@ const Work = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="title-font text-4xl font-bold inline border-b-4 text-[#1c1c1c] border-[#de672a]">
-            Projects
+            projects
           </p>
-          <p className="py-6">check out some of my recent work</p>
+          <p className="py-6 text-xl">check out some of my recent work 👀</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 z-10">
           {projects.map((project, index) => (
