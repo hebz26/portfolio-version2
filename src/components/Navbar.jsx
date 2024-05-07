@@ -78,6 +78,33 @@ const Navbar = () => {
             projects
           </Link>
         </li>
+        <li className="py-6 text-4xl">
+          <a
+            href="https://www.linkedin.com/in/heba-sayed6/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin
+          </a>
+        </li>
+        <li className="py-6 text-4xl">
+          <a
+            href="https://github.com/hebz26"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github
+          </a>
+        </li>
+        <li className="py-6 text-4xl">
+          <a
+            href="https://www.instagram.com/hebzstudio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            instagram
+          </a>
+        </li>
       </ul>
       {/* Socials Menu */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
