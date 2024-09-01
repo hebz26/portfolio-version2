@@ -24,13 +24,13 @@ const projects = [
   {
     title: "IWD Summit",
     description:
-      "Helped design & build website for the Detroit International Women's Day Summit 2024",
+      "Helped design & build website for the Detroit International Women's Day Summit 2024.",
     imageUrl: iwdsummit,
     demoLink: "https://www.iwdsummit.com/",
   },
   {
     title: "Hack Dearborn",
-    description: "Helped design & build website for Hack Dearborn 2024",
+    description: "Helped design & build website for Hack Dearborn 2024.",
     imageUrl: HackDearborn,
     demoLink: "https://www.hackdearborn.org/",
   },
