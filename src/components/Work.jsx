@@ -4,11 +4,11 @@ import projects from "./projects-list";
 
 const Work = () => {
   return (
-    <div name="work" className="bg-[#fffde7] w-full md:h-screen text-[#1c1c1c]">
+    <div name="work" className="bg-[#fffde7] w-full text-[#1c1c1c]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="title-font text-4xl font-bold inline border-b-4 text-[#1c1c1c] border-[#de672a]">
-            projects
+            work
           </p>
           <p className="py-6 text-xl">check out some of my recent work 👀</p>
         </div>
