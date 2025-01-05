@@ -4,6 +4,7 @@ import ColorSnag from "../assets/colorsnag.png";
 import JobJot from "../assets/jobjot.png";
 import HackDearborn from "../assets/hackdearborn.png";
 import NarcanVM from "../assets/narcan.png";
+import MyPass from "../assets/my-pass.png";
 
 const projects = [
   {
@@ -13,6 +14,13 @@ const projects = [
     imageUrl: NarcanVM,
     demoLink: "https://www.narcanvm.com/",
     videoLink: "https://youtu.be/bzhXrEL1iV8",
+  },
+  {
+    title: "MyPass",
+    description:
+      "Developed application designed to store and manage sensitive data.",
+    imageUrl: MyPass,
+    videoLink: "https://youtu.be/TgCBUT-Td08?si=UCgAGcke-WvAeFib",
   },
   {
     title: "JobJot",
