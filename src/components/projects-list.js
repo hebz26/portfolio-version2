@@ -3,8 +3,17 @@ import eportfolio from "../assets/eportfolio.jpg";
 import ColorSnag from "../assets/colorsnag.png";
 import JobJot from "../assets/jobjot.png";
 import HackDearborn from "../assets/hackdearborn.png";
+import NarcanVM from "../assets/narcan.png";
 
 const projects = [
+  {
+    title: "NarcanVM",
+    description:
+      "Developed application designed to simplify narcan status reporting.",
+    imageUrl: NarcanVM,
+    demoLink: "https://www.narcanvm.com/",
+    videoLink: "https://youtu.be/bzhXrEL1iV8",
+  },
   {
     title: "JobJot",
     description:
