@@ -17,10 +17,10 @@ const Home = () => {
           </h2>
           <p className=" text-[#636363] text-xl pb-4 mt-2 max-w-[700px]">
             {" "}
-            I have a keen interest in front-end development and a knack for
-            intuitive design. Currently pursuing my software engineering degree,
-            I thrive on crafting seamless user experiences that blend
-            functionality with aesthetics.
+            I'm a Software Engineering student passionate about crafting
+            impactful and visually appealing software. I combine development and
+            design expertise to create functional, user-friendly solutions that
+            stand out.
           </p>
           <div>
             <Link to="work" smooth={true} duration={500} offset={-50}>

@@ -21,12 +21,14 @@ const About = () => {
           </div>
           <div>
             <p className="text-xl">
-              I'm driven and enthusiastic student pursuing a Bachelor's degree
-              in Software Engineering. Currently approaching my senior year, I
-              am deeply passionate about front-end development and design. In my
-              spare time, I'm all about getting creative – you'll find me
-              doodling, editing videos, painting, and diving into other artistic
-              adventures.
+              I knew I had a creative mind from a very young age. I loved to
+              draw, paint, write, video edit, and even film fake movies. I
+              enjoyed the creative process behind these little hobbies. This
+              pushed me to pursue a Bachelor's degree in Software Engineering. I
+              love having the ability to implement creative ideas and
+              potentially make an impact. Pursuing this field has even given me
+              the chance to practice my design skills. It's the perfect blend of
+              technical problem-solving and artistic expression.
             </p>
           </div>
         </div>
