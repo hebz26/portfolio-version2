@@ -23,14 +23,6 @@ const projects = [
     videoLink: "https://youtu.be/TgCBUT-Td08?si=UCgAGcke-WvAeFib",
   },
   {
-    title: "JobJot",
-    description:
-      "Developed web application designed to help manage and track job applications.",
-    imageUrl: JobJot,
-    codeLink: "https://github.com/hebz26/JobJot",
-    videoLink: "https://www.youtube.com/watch?v=B0Z6HAQuUs4",
-  },
-  {
     title: "ColorSnag",
     description:
       "Developed a chrome extension designed to simplify color selection and palette making. ",
@@ -38,6 +30,15 @@ const projects = [
     codeLink: "https://github.com/hebz26/ColorSnag",
     videoLink: "https://www.youtube.com/watch?v=OujYJ08Vda4",
   },
+  {
+    title: "JobJot",
+    description:
+      "Developed web application designed to help manage and track job applications.",
+    imageUrl: JobJot,
+    codeLink: "https://github.com/hebz26/JobJot",
+    videoLink: "https://www.youtube.com/watch?v=B0Z6HAQuUs4",
+  },
+
   {
     title: "IWD Summit",
     description:
