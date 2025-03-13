@@ -50,7 +50,7 @@ const Work = () => {
                 : "bg-gray-300 text-[#1c1c1c]"
             }`}
           >
-            Graphic Design
+            Design
           </button>
         </div>
 
